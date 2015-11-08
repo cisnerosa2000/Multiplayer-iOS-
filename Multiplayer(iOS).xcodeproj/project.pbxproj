@@ -1,0 +1,549 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BC29473F1BEE637800A2FB58 /* spots.atlas in Resources */ = {isa = PBXBuildFile; fileRef = BC29473E1BEE637800A2FB58 /* spots.atlas */; };
+		BCEE9FB71BEC06DE0020D434 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCEE9FB61BEC06DE0020D434 /* AppDelegate.swift */; };
+		BCEE9FB91BEC06DE0020D434 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = BCEE9FB81BEC06DE0020D434 /* GameScene.sks */; };
+		BCEE9FBB1BEC06DE0020D434 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCEE9FBA1BEC06DE0020D434 /* GameScene.swift */; };
+		BCEE9FBD1BEC06DE0020D434 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCEE9FBC1BEC06DE0020D434 /* GameViewController.swift */; };
+		BCEE9FC01BEC06DE0020D434 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BCEE9FBE1BEC06DE0020D434 /* Main.storyboard */; };
+		BCEE9FC21BEC06DE0020D434 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BCEE9FC11BEC06DE0020D434 /* Assets.xcassets */; };
+		BCEE9FC51BEC06DE0020D434 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BCEE9FC31BEC06DE0020D434 /* LaunchScreen.storyboard */; };
+		BCEE9FD01BEC06DE0020D434 /* Multiplayer_iOS_Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCEE9FCF1BEC06DE0020D434 /* Multiplayer_iOS_Tests.swift */; };
+		BCEE9FDB1BEC06DE0020D434 /* Multiplayer_iOS_UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCEE9FDA1BEC06DE0020D434 /* Multiplayer_iOS_UITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BCEE9FCC1BEC06DE0020D434 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BCEE9FAB1BEC06DE0020D434 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BCEE9FB21BEC06DE0020D434;
+			remoteInfo = "Multiplayer(iOS)";
+		};
+		BCEE9FD71BEC06DE0020D434 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BCEE9FAB1BEC06DE0020D434 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BCEE9FB21BEC06DE0020D434;
+			remoteInfo = "Multiplayer(iOS)";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BC29473E1BEE637800A2FB58 /* spots.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = spots.atlas; sourceTree = "<group>"; };
+		BCEE9FB31BEC06DE0020D434 /* Multiplayer(iOS).app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Multiplayer(iOS).app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BCEE9FB61BEC06DE0020D434 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BCEE9FB81BEC06DE0020D434 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		BCEE9FBA1BEC06DE0020D434 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		BCEE9FBC1BEC06DE0020D434 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		BCEE9FBF1BEC06DE0020D434 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BCEE9FC11BEC06DE0020D434 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BCEE9FC41BEC06DE0020D434 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BCEE9FC61BEC06DE0020D434 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BCEE9FCB1BEC06DE0020D434 /* Multiplayer(iOS)Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Multiplayer(iOS)Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BCEE9FCF1BEC06DE0020D434 /* Multiplayer_iOS_Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Multiplayer_iOS_Tests.swift; sourceTree = "<group>"; };
+		BCEE9FD11BEC06DE0020D434 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BCEE9FD61BEC06DE0020D434 /* Multiplayer(iOS)UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Multiplayer(iOS)UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BCEE9FDA1BEC06DE0020D434 /* Multiplayer_iOS_UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Multiplayer_iOS_UITests.swift; sourceTree = "<group>"; };
+		BCEE9FDC1BEC06DE0020D434 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BCEE9FB01BEC06DE0020D434 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCEE9FC81BEC06DE0020D434 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCEE9FD31BEC06DE0020D434 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BC35828D1BECEE0300D76E17 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				BCEE9FBA1BEC06DE0020D434 /* GameScene.swift */,
+				BCEE9FBC1BEC06DE0020D434 /* GameViewController.swift */,
+				BCEE9FB61BEC06DE0020D434 /* AppDelegate.swift */,
+			);
+			name = Main;
+			sourceTree = "<group>";
+		};
+		BC35828E1BECEE1E00D76E17 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				BCEE9FB81BEC06DE0020D434 /* GameScene.sks */,
+				BCEE9FBE1BEC06DE0020D434 /* Main.storyboard */,
+				BCEE9FC31BEC06DE0020D434 /* LaunchScreen.storyboard */,
+			);
+			name = UI;
+			sourceTree = "<group>";
+		};
+		BC35828F1BECEE3300D76E17 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				BC29473E1BEE637800A2FB58 /* spots.atlas */,
+				BCEE9FC11BEC06DE0020D434 /* Assets.xcassets */,
+			);
+			name = Assets;
+			sourceTree = "<group>";
+		};
+		BCEE9FAA1BEC06DE0020D434 = {
+			isa = PBXGroup;
+			children = (
+				BCEE9FB51BEC06DE0020D434 /* Multiplayer(iOS) */,
+				BCEE9FCE1BEC06DE0020D434 /* Multiplayer(iOS)Tests */,
+				BCEE9FD91BEC06DE0020D434 /* Multiplayer(iOS)UITests */,
+				BCEE9FB41BEC06DE0020D434 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BCEE9FB41BEC06DE0020D434 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BCEE9FB31BEC06DE0020D434 /* Multiplayer(iOS).app */,
+				BCEE9FCB1BEC06DE0020D434 /* Multiplayer(iOS)Tests.xctest */,
+				BCEE9FD61BEC06DE0020D434 /* Multiplayer(iOS)UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BCEE9FB51BEC06DE0020D434 /* Multiplayer(iOS) */ = {
+			isa = PBXGroup;
+			children = (
+				BC35828D1BECEE0300D76E17 /* Main */,
+				BC35828F1BECEE3300D76E17 /* Assets */,
+				BC35828E1BECEE1E00D76E17 /* UI */,
+				BCEE9FC61BEC06DE0020D434 /* Info.plist */,
+			);
+			path = "Multiplayer(iOS)";
+			sourceTree = "<group>";
+		};
+		BCEE9FCE1BEC06DE0020D434 /* Multiplayer(iOS)Tests */ = {
+			isa = PBXGroup;
+			children = (
+				BCEE9FCF1BEC06DE0020D434 /* Multiplayer_iOS_Tests.swift */,
+				BCEE9FD11BEC06DE0020D434 /* Info.plist */,
+			);
+			path = "Multiplayer(iOS)Tests";
+			sourceTree = "<group>";
+		};
+		BCEE9FD91BEC06DE0020D434 /* Multiplayer(iOS)UITests */ = {
+			isa = PBXGroup;
+			children = (
+				BCEE9FDA1BEC06DE0020D434 /* Multiplayer_iOS_UITests.swift */,
+				BCEE9FDC1BEC06DE0020D434 /* Info.plist */,
+			);
+			path = "Multiplayer(iOS)UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BCEE9FB21BEC06DE0020D434 /* Multiplayer(iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BCEE9FDF1BEC06DE0020D434 /* Build configuration list for PBXNativeTarget "Multiplayer(iOS)" */;
+			buildPhases = (
+				BCEE9FAF1BEC06DE0020D434 /* Sources */,
+				BCEE9FB01BEC06DE0020D434 /* Frameworks */,
+				BCEE9FB11BEC06DE0020D434 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Multiplayer(iOS)";
+			productName = "Multiplayer(iOS)";
+			productReference = BCEE9FB31BEC06DE0020D434 /* Multiplayer(iOS).app */;
+			productType = "com.apple.product-type.application";
+		};
+		BCEE9FCA1BEC06DE0020D434 /* Multiplayer(iOS)Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BCEE9FE21BEC06DE0020D434 /* Build configuration list for PBXNativeTarget "Multiplayer(iOS)Tests" */;
+			buildPhases = (
+				BCEE9FC71BEC06DE0020D434 /* Sources */,
+				BCEE9FC81BEC06DE0020D434 /* Frameworks */,
+				BCEE9FC91BEC06DE0020D434 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BCEE9FCD1BEC06DE0020D434 /* PBXTargetDependency */,
+			);
+			name = "Multiplayer(iOS)Tests";
+			productName = "Multiplayer(iOS)Tests";
+			productReference = BCEE9FCB1BEC06DE0020D434 /* Multiplayer(iOS)Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BCEE9FD51BEC06DE0020D434 /* Multiplayer(iOS)UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BCEE9FE51BEC06DE0020D434 /* Build configuration list for PBXNativeTarget "Multiplayer(iOS)UITests" */;
+			buildPhases = (
+				BCEE9FD21BEC06DE0020D434 /* Sources */,
+				BCEE9FD31BEC06DE0020D434 /* Frameworks */,
+				BCEE9FD41BEC06DE0020D434 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BCEE9FD81BEC06DE0020D434 /* PBXTargetDependency */,
+			);
+			name = "Multiplayer(iOS)UITests";
+			productName = "Multiplayer(iOS)UITests";
+			productReference = BCEE9FD61BEC06DE0020D434 /* Multiplayer(iOS)UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BCEE9FAB1BEC06DE0020D434 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = cisnerosa;
+				TargetAttributes = {
+					BCEE9FB21BEC06DE0020D434 = {
+						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = HSQ5HY437B;
+					};
+					BCEE9FCA1BEC06DE0020D434 = {
+						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = HSQ5HY437B;
+						TestTargetID = BCEE9FB21BEC06DE0020D434;
+					};
+					BCEE9FD51BEC06DE0020D434 = {
+						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = HSQ5HY437B;
+						TestTargetID = BCEE9FB21BEC06DE0020D434;
+					};
+				};
+			};
+			buildConfigurationList = BCEE9FAE1BEC06DE0020D434 /* Build configuration list for PBXProject "Multiplayer(iOS)" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BCEE9FAA1BEC06DE0020D434;
+			productRefGroup = BCEE9FB41BEC06DE0020D434 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BCEE9FB21BEC06DE0020D434 /* Multiplayer(iOS) */,
+				BCEE9FCA1BEC06DE0020D434 /* Multiplayer(iOS)Tests */,
+				BCEE9FD51BEC06DE0020D434 /* Multiplayer(iOS)UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BCEE9FB11BEC06DE0020D434 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC29473F1BEE637800A2FB58 /* spots.atlas in Resources */,
+				BCEE9FB91BEC06DE0020D434 /* GameScene.sks in Resources */,
+				BCEE9FC51BEC06DE0020D434 /* LaunchScreen.storyboard in Resources */,
+				BCEE9FC21BEC06DE0020D434 /* Assets.xcassets in Resources */,
+				BCEE9FC01BEC06DE0020D434 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCEE9FC91BEC06DE0020D434 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCEE9FD41BEC06DE0020D434 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BCEE9FAF1BEC06DE0020D434 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCEE9FBB1BEC06DE0020D434 /* GameScene.swift in Sources */,
+				BCEE9FBD1BEC06DE0020D434 /* GameViewController.swift in Sources */,
+				BCEE9FB71BEC06DE0020D434 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCEE9FC71BEC06DE0020D434 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCEE9FD01BEC06DE0020D434 /* Multiplayer_iOS_Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCEE9FD21BEC06DE0020D434 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCEE9FDB1BEC06DE0020D434 /* Multiplayer_iOS_UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BCEE9FCD1BEC06DE0020D434 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BCEE9FB21BEC06DE0020D434 /* Multiplayer(iOS) */;
+			targetProxy = BCEE9FCC1BEC06DE0020D434 /* PBXContainerItemProxy */;
+		};
+		BCEE9FD81BEC06DE0020D434 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BCEE9FB21BEC06DE0020D434 /* Multiplayer(iOS) */;
+			targetProxy = BCEE9FD71BEC06DE0020D434 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BCEE9FBE1BEC06DE0020D434 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BCEE9FBF1BEC06DE0020D434 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BCEE9FC31BEC06DE0020D434 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BCEE9FC41BEC06DE0020D434 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BCEE9FDD1BEC06DE0020D434 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BCEE9FDE1BEC06DE0020D434 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BCEE9FE01BEC06DE0020D434 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Multiplayer(iOS)/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cisnerosa.Multiplayer-iOS-";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BCEE9FE11BEC06DE0020D434 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Multiplayer(iOS)/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cisnerosa.Multiplayer-iOS-";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		BCEE9FE31BEC06DE0020D434 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				INFOPLIST_FILE = "Multiplayer(iOS)Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cisnerosa.Multiplayer-iOS-Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Multiplayer(iOS).app/Multiplayer(iOS)";
+			};
+			name = Debug;
+		};
+		BCEE9FE41BEC06DE0020D434 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Multiplayer(iOS)Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cisnerosa.Multiplayer-iOS-Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Multiplayer(iOS).app/Multiplayer(iOS)";
+			};
+			name = Release;
+		};
+		BCEE9FE61BEC06DE0020D434 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				INFOPLIST_FILE = "Multiplayer(iOS)UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cisnerosa.Multiplayer-iOS-UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Multiplayer(iOS)";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		BCEE9FE71BEC06DE0020D434 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Multiplayer(iOS)UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cisnerosa.Multiplayer-iOS-UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Multiplayer(iOS)";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BCEE9FAE1BEC06DE0020D434 /* Build configuration list for PBXProject "Multiplayer(iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCEE9FDD1BEC06DE0020D434 /* Debug */,
+				BCEE9FDE1BEC06DE0020D434 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BCEE9FDF1BEC06DE0020D434 /* Build configuration list for PBXNativeTarget "Multiplayer(iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCEE9FE01BEC06DE0020D434 /* Debug */,
+				BCEE9FE11BEC06DE0020D434 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BCEE9FE21BEC06DE0020D434 /* Build configuration list for PBXNativeTarget "Multiplayer(iOS)Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCEE9FE31BEC06DE0020D434 /* Debug */,
+				BCEE9FE41BEC06DE0020D434 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BCEE9FE51BEC06DE0020D434 /* Build configuration list for PBXNativeTarget "Multiplayer(iOS)UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCEE9FE61BEC06DE0020D434 /* Debug */,
+				BCEE9FE71BEC06DE0020D434 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BCEE9FAB1BEC06DE0020D434 /* Project object */;
+}
